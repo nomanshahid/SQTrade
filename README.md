@@ -8,5 +8,3 @@ At its core, the project uses the Capital Asset Pricing Model (CAPM) to value se
 <p align="center"><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/2371da17ef371eb0764f9879c97e685cfa2dc256"></p>
 
 Historical data of the selected stocks is processed in Spark to train the neural network to predict future values. The gradient descent algorithm is used to reduce the error rate in each iteration. The predicted and expected output is compared for integrity before considering future predictions of the stocks price.
-
-Several other models are used to predict price movement. The project is constantly being improved to perform more accurate analysis.
